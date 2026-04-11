@@ -149,21 +149,3 @@ Build real-time fraud detection system
 Add user behavior profiling
 
 Create interactive dashboard using React
-
-▶️ How to Run the Project
-Install dependencies:
-
-pip install pandas numpy matplotlib seaborn
-Launch Jupyter Notebook:
-
-jupyter notebook
-Open:
-
-notebooks/analysis.ipynb
-Run all cells
-
-🎤 Viva Explanation (Short)
-This project uses data analysis and statistical techniques like IQR and Z-score to identify unusual transaction patterns that may indicate fraud.
-
-📎 Conclusion
-This project demonstrates how data science techniques can be applied to detect anomalies in banking transactions, helping in early identification of potential fraud cases.
