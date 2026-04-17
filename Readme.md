@@ -229,3 +229,66 @@ External factors (travel, emergencies) not considered
 “By analyzing transaction patterns using exploratory data analysis, we can identify unusual behaviors that may act as early indicators of fraud, enabling faster detection compared to traditional methods.”
 
 🎯 Why This Answer Scores High
+
+
+1. Project Intent & High-Level Flow
+This project aims to analyze transaction data to identify patterns that may indicate unusual or potentially fraudulent behavior. The core question it addresses is:
+
+“What patterns or anomalies exist in the data that could signal suspicious activity?”
+
+The workflow follows a typical data science lifecycle:
+
+Question Definition → Understanding the problem
+
+Data Collection & Loading → Using transaction datasets
+
+Data Cleaning → Handling missing or inconsistent values
+
+Exploratory Data Analysis (EDA) → Identifying patterns and anomalies
+
+Insights Generation → Drawing conclusions from observed trends
+
+The repository structure reflects this lifecycle by separating raw data, exploratory notebooks, processing scripts, and outputs, making each stage of analysis clear and organized.
+
+2. Repository Structure & File Roles
+data/
+Contains raw and processed datasets. Raw data should not be modified directly, while processed data is used for analysis.
+
+notebooks/
+Used for exploratory work (EDA). This is where initial analysis, visualization, and observations are made.
+
+scripts/ or src/
+Contains reusable code for data processing or analysis. More structured and cleaner than notebooks.
+
+outputs/
+Stores generated plots, reports, or results from analysis.
+
+Exploratory vs Finalized Work
+Exploratory work (notebooks) is flexible and iterative
+
+Finalized work (scripts/outputs) is cleaner, reusable, and structured
+
+Where to Be Careful
+Avoid modifying raw data files
+
+Be cautious editing core scripts used across the project
+
+Ensure notebooks do not overwrite important outputs
+
+3. Assumptions, Gaps, and Open Questions
+Assumptions
+The dataset accurately represents user transaction behavior
+
+Outliers or anomalies may indicate suspicious activity
+
+Data is sufficiently complete for analysis
+
+Gaps / Issues
+Lack of clear documentation on dataset origin
+
+No explanation of preprocessing steps in some parts
+
+Unclear definitions of key variables
+
+Improvement Suggestion
+Adding a data dictionary and clear preprocessing documentation would make the project easier to understand and extend for new contributors.
