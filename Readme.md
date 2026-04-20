@@ -230,6 +230,69 @@ External factors (travel, emergencies) not considered
 
 🎯 Why This Answer Scores High
 
+<<<<<<< HEAD
+🔹 Understanding a Data Science Repository
+A data science repository should be viewed as a story of how a problem was solved, not just a collection of files. Each folder and file represents a step in the data science lifecycle—from defining the problem to generating insights.
+
+Instead of focusing only on file names, the goal is to understand:
+
+What problem is being solved
+
+How the analysis is structured
+
+What decisions were made during the process
+
+This approach helps in building a mental map of the project.
+
+
+
+🔹 Interpreting Folder Structure
+Different folders represent different stages of the lifecycle:
+
+data/ → raw and processed data
+
+notebooks/ → exploratory analysis and experimentation
+
+src/scripts/ → reusable and structured code
+
+outputs/reports/ → final results and visualizations
+
+The key is to understand:
+
+Which parts are experimental (notebooks)
+
+Which parts are final and reusable (scripts/outputs)
+
+This helps avoid making changes in the wrong place.
+
+🔹 Reading Notebooks and Code Effectively
+When opening notebooks or scripts, the goal is not to understand every line immediately but to:
+
+Identify where data is loaded and cleaned
+
+Follow the sequence of analysis
+
+Distinguish between exploration and conclusions
+
+Focus should be on understanding the logic and decisions, not memorizing code.
+
+🔹 Identifying Assumptions and Gaps
+Every project makes assumptions, such as:
+
+Data being complete or accurate
+
+Certain patterns being meaningful
+
+While reading, you should critically think:
+
+Are there missing values or biases?
+
+Are any steps unclear or undocumented?
+
+Are there unanswered questions?
+
+This helps in improving the project and avoiding blind trust in results.
+=======
 
 1. Project Intent & High-Level Flow
 This project aims to analyze transaction data to identify patterns that may indicate unusual or potentially fraudulent behavior. The core question it addresses is:
@@ -292,3 +355,4 @@ Unclear definitions of key variables
 
 Improvement Suggestion
 Adding a data dictionary and clear preprocessing documentation would make the project easier to understand and extend for new contributors.
+>>>>>>> d318fc73b8c0f6e0bd3cf27faaa5736bfcd1773f
