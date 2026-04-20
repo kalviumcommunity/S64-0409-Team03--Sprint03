@@ -355,4 +355,153 @@ Unclear definitions of key variables
 
 Improvement Suggestion
 Adding a data dictionary and clear preprocessing documentation would make the project easier to understand and extend for new contributors.
->>>>>>> d318fc73b8c0f6e0bd3cf27faaa5736bfcd1773f
+
+
+
+🔹 1. Problem Statement & Solution Overview
+Problem:
+Banking systems often fail to detect fraudulent transactions in real time because suspicious patterns are hidden within large volumes of transaction data.
+
+Who it affects:
+
+Banks
+
+Customers (financial loss)
+
+Solution:
+We will build a system that analyzes transaction data and identifies anomalies (unusual patterns) using simple machine learning techniques.
+
+How ML helps:
+
+Learns normal transaction behavior
+
+Flags deviations as suspicious
+
+User Interaction:
+User uploads or views transaction data → system highlights suspicious transactions → displays insights.
+
+🔹 2. Dataset Selection & Scope
+Dataset:
+
+Credit Card Transactions dataset (or simulated dataset)
+
+Relevant Features:
+
+Transaction amount
+
+Time
+
+User ID
+
+Location (if available)
+
+In Scope:
+
+Data cleaning
+
+Exploratory Data Analysis (EDA)
+
+Basic anomaly detection (Isolation Forest / IQR)
+
+Simple UI or output display
+
+Out of Scope:
+
+Deep learning models
+
+Real-time banking integration
+
+Complex feature engineering
+
+🔹 3. Roles & Responsibilities (Even if Solo, define logically)
+Data Handling: Data cleaning, preprocessing
+
+Analysis: EDA, visualization
+
+Modeling: Anomaly detection
+
+App/UI: Display results
+
+(If solo: you handle all, but structured thinking matters)
+
+🔹 4. Sprint Timeline (4 Weeks)
+✅ Week 1: Understanding & Data
+Define problem clearly
+
+Load dataset
+
+Clean data
+
+Understand features
+
+✅ Week 2: EDA (CORE)
+Distribution analysis
+
+Outlier detection
+
+Visualization (histogram, boxplot, scatter)
+
+✅ Week 3: Modeling
+Apply simple anomaly detection:
+
+Isolation Forest OR IQR
+
+Generate anomaly labels
+
+Evaluate basic results
+
+✅ Week 4: App + Finalization
+Build simple interface (Streamlit / basic UI)
+
+Show suspicious transactions
+
+Write README + documentation
+
+🔹 5. MVP (Minimum Viable Product)
+Your MVP must include:
+
+✅ Load dataset
+✅ Clean and preprocess data
+✅ Perform EDA
+✅ Detect anomalies (IQR or Isolation Forest)
+✅ Display suspicious transactions
+
+👉 That’s it. Keep it SIMPLE.
+
+🔹 6. Functional Requirements
+System should:
+
+Accept transaction dataset
+
+Process and clean data
+
+Analyze transaction patterns
+
+Detect anomalies
+
+Display results clearly
+
+🔹 7. Non-Functional Requirements
+Fast processing for small datasets
+
+Easy to understand outputs
+
+Clean and readable code
+
+Reliable execution without errors
+
+🔹 8. Success Metrics
+% of anomalies detected
+
+Clear visualizations generated
+
+Working end-to-end pipeline
+
+Usable interface/output
+
+🔹 9. Risks & Mitigation
+Risk	Solution
+Poor dataset quality	Use cleaned/simulated data
+Too complex model	Stick to simple methods
+Time shortage	Focus on MVP only
+Confusing results	Use clear visualizations
