@@ -588,3 +588,47 @@ Python	Working ✅
 Conda	Working ✅
 Environment	Activated ✅
 Jupyter	Running & Executing Code ✅
+
+
+🔹 Understanding Cell Types
+Jupyter Notebook provides two main cell types:
+
+✔ Code Cells
+Used to execute Python code
+
+Produce outputs (text, tables, graphs)
+
+Contain logic and computations
+
+✔ Markdown Cells
+Used for explanation and documentation
+
+Support headings, lists, and text formatting
+
+Do not execute code
+
+🔹 Key Difference
+Code Cell	Markdown Cell
+Executes Python code	Explains logic and results
+Produces output	Produces formatted text
+Used for computation	Used for documentation
+🔹 Example Notebook Structure
+🧾 Markdown Cell (Title)
+# Introduction to Jupyter Notebook Cells
+🧾 Markdown Cell (Explanation)
+This notebook demonstrates the difference between Code and Markdown cells.
+💻 Code Cell
+print("Hello, Data Science")
+🧾 Markdown Cell (Explanation)
+The above code prints a simple message to verify that the Code cell executes correctly.
+💻 Code Cell
+x = 10
+y = 20
+print("Sum:", x + y)
+🧾 Markdown Cell (Explanation)
+This code performs a basic addition operation and displays the result.
+🔹 Final Understanding
+Code cells = what the system does
+
+Markdown cells = what the user understands
+
