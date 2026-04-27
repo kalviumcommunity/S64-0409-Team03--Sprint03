@@ -777,3 +777,93 @@ Markdown explains what and why
 Code shows how
 
 Together they create a clear data story
+
+
+🔹 Project Directory Structure
+data-science-project/
+│
+├── data/
+│   ├── raw/
+│   └── processed/
+│
+├── notebooks/
+│
+├── src/
+│
+├── outputs/
+│   ├── figures/
+│   └── reports/
+│
+└── README.md
+🔹 Explanation of Each Folder
+📁 data/
+Stores all datasets
+
+raw/ → original data (never modified)
+
+processed/ → cleaned/processed data
+
+👉 Keeps data organized and prevents overwriting
+
+📁 notebooks/
+Contains Jupyter notebooks
+
+Used for:
+
+Exploration (EDA)
+
+Analysis
+
+Experiments
+
+👉 This is where most of your work happens
+
+📁 src/
+Contains Python scripts
+
+Used for reusable code:
+
+Data processing functions
+
+Utility scripts
+
+👉 Keeps code separate from notebooks
+
+📁 outputs/
+Stores results of analysis
+
+figures/
+Graphs, charts, visualizations
+
+reports/
+Final outputs or summaries
+
+👉 Ensures results are not mixed with code/data
+
+🔹 Key Principles Followed
+Data, code, and outputs are separated clearly
+
+Raw data is never modified
+
+Folder names are simple and meaningful
+
+Structure is easy to navigate and extend
+
+🔹 Why This Structure Matters
+This structure helps:
+
+Avoid broken file paths
+
+Keep projects clean and scalable
+
+Make collaboration easier
+
+Ensure reproducibility
+
+🔹 Final Verification
+Requirement	Status
+Root folder created	✅
+Data separated (raw/processed)	✅
+Notebooks organized	✅
+Scripts separated	✅
+Outputs stored properly	✅
