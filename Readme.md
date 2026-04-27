@@ -632,3 +632,74 @@ Code cells = what the system does
 
 Markdown cells = what the user understands
 
+
+🔹 What is a Jupyter Kernel?
+A Jupyter kernel is the execution engine that runs Python code in a notebook.
+
+It stores variables in memory
+
+Executes code cells
+
+Maintains the current state of the notebook
+
+👉 Important:
+
+The kernel remembers everything until it is restarted.
+
+🔹 Running Cells & Execution Order
+✔ Steps Performed
+Executed cells sequentially
+
+Observed that variables persist across cells
+
+✔ Example
+x = 10
+print(x)
+✔ Output works because kernel remembers x
+
+🔹 Restarting the Kernel
+✔ Action
+Used: Kernel → Restart
+
+✔ Observation
+All variables cleared
+
+Running print(x) now gives error
+
+NameError: name 'x' is not defined
+👉 Understanding:
+
+Restart resets the notebook to a clean state
+
+🔹 Interrupting Execution
+✔ Action
+Created long-running code:
+
+while True:
+    pass
+Used: Kernel → Interrupt
+
+✔ Result
+Execution stopped immediately
+
+Notebook remained responsive
+
+🔹 When to Use What
+Action	Use Case
+Run Cells	Execute code step-by-step
+Interrupt	Stop long/stuck execution
+Restart	Reset entire notebook state
+🔹 Key Learning
+Kernel stores memory → causes hidden issues
+
+Restart ensures reproducibility
+
+Interrupt prevents freezing
+
+🔹 Final Verification
+Task	Status
+Ran cells sequentially	✅
+Observed variable persistence	✅
+Restarted kernel	✅
+Interrupted execution	✅
+Understood differences	✅
