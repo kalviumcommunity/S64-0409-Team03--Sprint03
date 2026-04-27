@@ -703,3 +703,77 @@ Observed variable persistence	✅
 Restarted kernel	✅
 Interrupted execution	✅
 Understood differences	✅
+
+
+🔹 What is Markdown?
+Markdown is used in Jupyter Notebook to:
+
+Explain code
+
+Structure content
+
+Improve readability
+
+👉 Code = execution
+👉 Markdown = explanation
+
+🔹 Headings in Markdown
+Used to organize notebook sections.
+
+✔ Example:
+# Main Title
+## Section Heading
+### Subsection
+✔ Usage:
+# → Main title
+
+## → Section
+
+### → Subsection
+
+🔹 Lists in Markdown
+✔ Unordered List:
+- Data loading
+- Data cleaning
+- Analysis
+✔ Ordered List:
+1. Load dataset
+2. Clean data
+3. Visualize results
+👉 Lists improve clarity and structure
+
+🔹 Inline Code
+Used for short code references inside text.
+
+✔ Example:
+The variable `x` stores the value.
+👉 Output:
+The variable x stores the value.
+
+🔹 Code Blocks
+Used for longer code explanations.
+
+✔ Example:
+```python
+x = 10
+print(x)
+```
+🔹 Combining Markdown & Code Cells
+✔ Best Practice Structure:
+🧾 Markdown
+## Step 1: Define Variables
+💻 Code
+x = 10
+y = 20
+🧾 Markdown
+We define two variables to perform addition.
+💻 Code
+print(x + y)
+🧾 Markdown
+The output shows the sum of the variables.
+🔹 Final Understanding
+Markdown explains what and why
+
+Code shows how
+
+Together they create a clear data story
