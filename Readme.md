@@ -514,3 +514,71 @@ Anaconda	Installed & Working
 Conda Env	Active
 Jupyter	Running Successfully
 
+
+Launching Jupyter Notebook
+✔ Activate Environment
+conda activate base
+(or your env like ds_env)
+
+✔ Launch Jupyter
+jupyter notebook
+✔ Opens in browser
+✔ No errors during launch
+
+🔹 Understanding Home Interface
+After launching Jupyter:
+
+Key Sections Identified:
+File Browser Area → shows folders and files
+
+Navigation Breadcrumbs → shows current directory path
+
+New Button → create notebooks/files
+
+Upload Button → upload files
+
+File Indicators → folders, notebooks (.ipynb), scripts
+
+👉 Understanding:
+
+The home interface reflects the directory from which Jupyter was launched.
+
+🔹 Navigating Project Folders
+Open folders by clicking
+
+Move back using breadcrumbs
+
+Locate project directory (e.g., data-science-project/)
+
+✔ Confirmed that navigation matches local file system
+
+🔹 Creating and Running Notebook
+✔ Create Notebook
+Click New → Python 3 (ipykernel)
+
+✔ Test Execution
+print("Notebook is working")
+✔ Code runs successfully
+✔ Output displayed
+
+🔹 Notebook File Management
+✔ Rename Notebook
+Click notebook name → rename
+
+✔ Save Notebook
+Ctrl + S or File → Save
+
+✔ Close Notebook
+File → Close and Halt
+
+✔ Reopen
+Open from Jupyter home interface
+
+🔹 Final Verification
+Task	Status
+Jupyter Launch	✅
+Interface Understood	✅
+Folder Navigation	✅
+Notebook Created	✅
+Code Execution	✅
+File Management	✅
